@@ -3,8 +3,8 @@
   <channel>
     <title>Maisa Solutions</title>
     <description>Maisa Solutions is your ideal IT partner offering various Information Technology Services and Products.</description>
-    <link>http://maisasolutions.com/</link>
-    <atom:link href="http://maisasolutions.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://imaginationcoder.github.io/imaginationcoder.github.io/</link>
+    <atom:link href="http://imaginationcoder.github.io/imaginationcoder.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Hello, Pixyll</title>
@@ -28,8 +28,8 @@
 &lt;p&gt;It&amp;rsquo;s free, and open source (&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt;).&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Jun 2014 21:01:19 +0530</pubDate>
-        <link>http://maisasolutions.com/jekyll/pixyll/2014/06/11/welcome-to-pixyll/</link>
-        <guid isPermaLink="true">http://maisasolutions.com/jekyll/pixyll/2014/06/11/welcome-to-pixyll/</guid>
+        <link>http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/11/welcome-to-pixyll/</link>
+        <guid isPermaLink="true">http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/11/welcome-to-pixyll/</guid>
       </item>
     
       <item>
@@ -120,8 +120,8 @@ or add, features.&lt;/p&gt;
 &lt;p&gt;Happy writing.&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Jun 2014 18:01:19 +0530</pubDate>
-        <link>http://maisasolutions.com/jekyll/pixyll/2014/06/10/see-pixyll-in-action/</link>
-        <guid isPermaLink="true">http://maisasolutions.com/jekyll/pixyll/2014/06/10/see-pixyll-in-action/</guid>
+        <link>http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/10/see-pixyll-in-action/</link>
+        <guid isPermaLink="true">http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/10/see-pixyll-in-action/</guid>
       </item>
     
       <item>
@@ -137,8 +137,8 @@ and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot
 &lt;p&gt;Learn more about Jekyll on their &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Jun 2014 18:02:18 +0530</pubDate>
-        <link>http://maisasolutions.com/jekyll/pixyll/2014/06/09/so-what-is-jekyll/</link>
-        <guid isPermaLink="true">http://maisasolutions.com/jekyll/pixyll/2014/06/09/so-what-is-jekyll/</guid>
+        <link>http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/09/so-what-is-jekyll/</link>
+        <guid isPermaLink="true">http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/09/so-what-is-jekyll/</guid>
       </item>
     
       <item>
@@ -146,8 +146,8 @@ and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot
         <description>&lt;p&gt;This is an empty post to illustrate the pagination component with Pixyll.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Jun 2014 16:51:29 +0530</pubDate>
-        <link>http://maisasolutions.com/jekyll/pixyll/2014/06/08/pixyll-has-pagination/</link>
-        <guid isPermaLink="true">http://maisasolutions.com/jekyll/pixyll/2014/06/08/pixyll-has-pagination/</guid>
+        <link>http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/08/pixyll-has-pagination/</link>
+        <guid isPermaLink="true">http://imaginationcoder.github.io/imaginationcoder.github.io/jekyll/pixyll/2014/06/08/pixyll-has-pagination/</guid>
       </item>
     
   </channel>
