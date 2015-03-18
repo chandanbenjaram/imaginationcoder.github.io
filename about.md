@@ -1,19 +1,17 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+##### WE DON'T JUST BUILD PRODUCTS, WE BUILD BUSINESSES!
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+We build awesome things for the web & mobile. We’re creators, designers, engineers, educators and problem solvers. Let us build your awesome product.
 
-Thanks to the following:
+###### Our core values:
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+* Expertise in What We Do
+* Trust and Transparency
+* 100% commitment
+* Professionalism
+* Responsibility
