@@ -2,11 +2,11 @@ url: http://www.maisasolutions.com/
 baseurl: ""
 
 # Site settings
-title: Maisa Solutions
+title: Web Development Services | Mobile Application Developers
 pic: logo
 email: your-email@domain.com
-description: "We build awesome things for the web & mobile. We’re creators, designers, engineers, educators and problem solvers. Let us build your awesome product..."
-keywords: "Offshore Mobile Applications Development, Offshore Web Applications Development, Offshore Hadoop Development, Offshore NoSQL Development, Offshore Cassandra Development, Offshore MongoDB Development, Offshore CouchBase Development, Offshore Ruby on Rails Development, Offshore Spree Development, Offshore Ruby Development, Offshore Java/J2EE Development, Offshore Amazon WebServices Development, Offshore Amazon AWS Development, Offshore Cloud Computing Development, Offshore Heroku Development, Offshore Engine Yard Development, Offshore Google App Engine Development, Offshore iOS Native Application Development, Offshore Android Native Application Development, Offshore Mobile Application Development, Offshore PhoneGap/Apache Cardova Development, Offshore HTML5/CSS3/JavaScript/PHP Development, Offshore Node.js Development, Offshore Backbone.js Development, Offshore Angular.js, Offshore IT Development"
+description: "Web and mobile development services. We offer ios native application, mobile apps, web development with ruby on rails, java, cloud computing and many more."
+keywords: "ios mobile app development, web development services, mobile apps development, ruby on rails developers, mobile development services, mobile apps cloud computing, mobile application development, java web development services, ios development services, iOS Native Application Development"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: d50032 #fed136
