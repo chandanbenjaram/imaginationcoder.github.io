@@ -5,15 +5,16 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
+
+//$(function() {
+//    $('a.page-scroll').bind('click', function(event) {
+//        var $anchor = $(this);
+//        $('html, body').stop().animate({
+//            scrollTop: $($anchor.attr('href')).offset().top
+//        }, 1500, 'easeInOutExpo');
+//        event.preventDefault();
+//    });
+//});
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
@@ -36,29 +37,3 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
-// --- Added by Upender -------------------------
-// to support individual pages SEO
-var anchor = ''
-switch (window.location.pathname) {
-    case '/services/':
-        anchor = $('a[href="#services"]')
-        break;
-    case '/process/':
-        anchor = $('a[href="#process"]')
-        break;
-    case '/portfolio/':
-        anchor = $('a[href="#portfolio"]')
-        break;
-    case '/pride/':
-        anchor = $('a[href="#our-pride"]')
-        break;
-    case '/contact/':
-        anchor = $('a[href="#contact"]')
-        break;
-}
-if(anchor !='') {
-    $('html, body').stop().animate({
-        scrollTop: $(anchor.attr('href')).offset().top
-    }, 1000, 'easeInOutExpo');
-}
-// -------------------------------------------------
