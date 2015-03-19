@@ -929,3 +929,7 @@ body {
 section {
     padding: 85px 0 !important;
 }
+
+footer {
+    background-color: #f3f2f1;
+}
