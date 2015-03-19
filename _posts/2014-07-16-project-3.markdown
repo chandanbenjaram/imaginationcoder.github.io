@@ -1,0 +1,15 @@
+---
+title: Ashoka Hub
+subtitle: Ruby On Rails
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: ashoka_web.png
+thumbnail: ashoka_web.png
+alt: image-alt
+project-date: April 2014
+client: https://tapinto.net/
+category: Web Development
+description: The Alternative Press is a CMS application build by Ruby On Rails Technology.
+
+---

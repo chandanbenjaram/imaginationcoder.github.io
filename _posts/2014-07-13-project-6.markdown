@@ -1,0 +1,15 @@
+---
+title: Kidslink
+subtitle: Web & Mobile Application
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: kidslink_web.png
+thumbnail: kidslink_web.png
+alt: kidslink_web.png
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development QQQQQQ
+description: Maisa Solutions.
+
+---

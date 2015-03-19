@@ -1,52 +1,71 @@
+url: http://www.maisasolutions.com/
+baseurl: ""
+
 # Site settings
-title:       Maisa Solutions Blog
-email:       contact@maisasolutions
-author:      Chandan Benjaram
-description: "Maisa Solutions is your ideal IT partner offering various Information Technology Services and Products."
-baseurl:     "" # the subpath of your site, e.g. /blog/
-url:         "http://imaginationcoder.github.io"
+title: Maisa Solutions
+pic: logo
+email: your-email@domain.com
+description: "We build awesome things for the web & mobile. We’re creators, designers, engineers, educators and problem solvers. Let us build your awesome product..."
+keywords: "Offshore Mobile Applications Development, Offshore Web Applications Development, Offshore Hadoop Development, Offshore NoSQL Development, Offshore Cassandra Development, Offshore MongoDB Development, Offshore CouchBase Development, Offshore Ruby on Rails Development, Offshore Spree Development, Offshore Ruby Development, Offshore Java/J2EE Development, Offshore Amazon WebServices Development, Offshore Amazon AWS Development, Offshore Cloud Computing Development, Offshore Heroku Development, Offshore Engine Yard Development, Offshore Google App Engine Development, Offshore iOS Native Application Development, Offshore Android Native Application Development, Offshore Mobile Application Development, Offshore PhoneGap/Apache Cardova Development, Offshore HTML5/CSS3/JavaScript/PHP Development, Offshore Node.js Development, Offshore Backbone.js Development, Offshore Angular.js, Offshore IT Development"
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: d50032 #fed136
+  secondary: d50032 #fec503  
+  secondary-dark: 333
 
-# Google analytics
-google_analytics:
+# Team names, titles and social links
+people:
+- name: Pradeep Benjaram
+  pic: 1
+  position: Founder & M.D.
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
 
-# Optional features
-animated:           true
-show_related_posts: false
-show_post_footers:  false
+- name: Niveditha Reddy
+  pic: 2
+  position: Director of Human Resources
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname: true
+- name: Prasanna Patil
+  pic: 3
+  position: Director of U.S. Ops
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 
-# Social icons
-show_social_icons: false
-github_username:
-stackoverflow_id:
-twitter_username:
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/maisasolutions
+  - title: facebook
+    url: https://www.facebook.com/MaisaSolutions
+  - title: stack-overflow
+    url: https://github.com/maisaengineering/
+  - title: bitbucket 
+    url: https://github.com/maisaengineering/
+  - title: github
+    url: https://github.com/maisaengineering/
 
-# Post sharing icons
-show_sharing_icons: false
-share_text: 'Share this post!'
-# Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills , CA 90210
 
 # Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     3
-sass:
-  compressed: true
+markdown: kramdown
+permalink: pretty

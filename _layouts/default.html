@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body class="{% if site.animated %}animated fade-in-down{% endif %}">
-  <div class="site-wrap">
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
     {% include header.html %}
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include clients.html %}
 
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-        {{ content }}
-      </div>
-    </div>
-  </div>
+    {% include enquire.html %}
+    {% include contact.html %}
+    
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
-  {% include footer.html %}
-</body>
+    </body>
 </html>

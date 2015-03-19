@@ -1,14 +1,111 @@
-<header class="site-header px2 px-responsive">
-  <div class="mt2 wrap">
-    <div class="measure">
-      <a href="{{ site.url }}" class="site-title"><img src="/images/logo.png"/> </a>
-      <nav class="site-nav right">
-        {% include navigation.html %}
-      </nav>
-      <div class="clearfix"></div>
-      {% if site.show_social_icons %}
-        {% include social_links.html %}
-      {% endif %}
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a> -->
+                <a class=" page-scroll" href="#page-top"><img src="../img/logo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>   
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#process">Process</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#our-pride">Our Pride</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://blog.maisasolutions.com/" target=" ">Blog</a>
+                    </li>                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="col-md-6">
+                <div class="youtube_img"> <a class="fancybox-media" href="http://www.youtube.com/embed/v5GpjKcUrF8">
+                    <img src="../img/maisa_v2.png" width="480" alt="Youtube"></a> 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1 class="we_build">
+                    WE DON'T<br>
+                    JUST BUILD PRODUCTS,<br>
+                    WE BUILD BUSINESSES!
+                </h1>
+                <p style="font-size: 18px;color:#424242" class="padding_top">We build awesome things for the web & mobile. We’re creators, designers, engineers, educators and problem solvers. Let us build your awesome product...</p>
+                <div class=" margin_top">
+                    <!-- <a href="enquire.html">Get In Touch</a>  -->
+                    <br><br>
+                    <a href="#services" class="btn btn-lg btn-danger">Get In Touch</a>
+                </div>
+                <div class="dev_maisa">
+                    <div class="mobile_float">
+                        <img src="../img/apple_dev1.png" width="100" alt="Mobile">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+        <h3 class="we_off">We offer solutions. We offer excellence. We offer commitment.</h3>
+        <div style="padding-top:50px"></div>
+
+<!--     <div class="container">
+        <div class="intro-text">
+          <div class="col-xs-12">
+                <div class="product">               
+                    <img class="img-responsive" src="../img/wq.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div> -->
 </header>
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="col-md-3 text-center" style="margin-bottom:1em;">
+        <img src="../img/core-values.png" />
+        </div>
+
+    <div class="col-md-9">
+     <div class="box"><img src="../img/tick.png" width="24" height="18" /> Expertise in What We Do</div>
+     <div class="white"><div class="col-md-2"></div><img src="../img/tick.png" width="24" height="18" /> Trust & Transparency</div> 
+     <div class="box"><div class="col-md-4"></div><img src="../img/tick.png" width="24" height="18" /> 100% Commitment</div>
+     <div class="white"><div class="col-md-6"></div><img src="../img/tick.png" width="24" height="18" /> Professionalism</div>
+      <div class="box"><div class="col-md-8"></div> <img src="../img/tick.png" width="24" height="18" /> Responsibility</div>
+
+    </div>
+    </div>
+</div>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
+
