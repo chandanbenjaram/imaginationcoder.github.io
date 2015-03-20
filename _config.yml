@@ -18,21 +18,17 @@ people:
 - name: Pradeep Benjaram
   pic: 1
   position: Founder & M.D.
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: stack-overflow
-#      url: #
+  description: 'Pradeep, with over 15years of experience in delivering high quality output across different business sectors'
 
 - name: Niveditha Reddy
   pic: 2
   position: Director of Human Resources
+  description: 'Nivi, with over 10years of problem solving experience, plays a key role to the company for both internal & external communication. Extremely detailed and ability to bridge gap between engineering & management puts her in such a key role for us.'
 
 - name: Prasanna Patil
   pic: 3
   position: Director of U.S. Ops
+  description: 'Prasanna recipient of Graduate Citation holds a Masters degree from CUNY and is also PMP certified. Prasanna brings over a decade of management, business transformation and information technology consulting experience in delegating and deploying large global enterprise applications. In addition to overseeing the company’s US operations on a daily basis, Prasanna is passionately involved in client facing, ERP solution architecture and IT project management/implementations activities. Prasanna in paramount positions has consulted for several large scale global fortunes 500 clients.'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -44,8 +40,8 @@ social:
      url: https://plus.google.com/+Maisasolutions/posts
    - title: youtube
      url: https://www.youtube.com/watch?v=v5GpjKcUrF8&amp;feature=youtu.be
-   - title: github
-     url: https://github.com/maisaengineering/
+   - title: linkedin
+     url: https://www.linkedin.com/company/maisa-solutions
 
 # Postal address (add as many lines as necessary)
 address:

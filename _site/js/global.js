@@ -66,3 +66,8 @@ $('div.modal').on('show.bs.modal', function() {
         }
     }
 });
+
+
+$("#aboutVideo").on('hidden.bs.modal', function (e) {
+    $("#aboutVideo iframe").attr("src", $("#aboutVideo iframe").attr("src"));
+});
