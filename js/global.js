@@ -48,3 +48,8 @@ if(anchor !='') {
    anchor.parents('li:first').addClass('active')
 }
 //-------------------------------------------------
+
+// scrolling client images
+$(function() {
+    $("#scroller").simplyScroll();
+});
