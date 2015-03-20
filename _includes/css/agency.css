@@ -353,7 +353,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color:#d50032;
+    color: #C52128;
 }
 
 section h3.section-subheading {
@@ -741,7 +741,7 @@ section#contact:-ms-input-placeholder {
 }
 
 section#contact .text-danger {
-    color: #d50032;
+    color: #C52128;
 }
 
 footer {
@@ -891,7 +891,7 @@ body {
 
 /*sadashiv*/
 .box, .white {
-    background-color: #d50032;
+    background-color: #C52128;
     color: #ffffff;
     padding: 10px 4px;
     font-weight: bold;
@@ -901,7 +901,7 @@ body {
 }
 .white {
     background-color: #ffffff;
-    color: #d50032
+    color: #C52128;
 
 }
 
