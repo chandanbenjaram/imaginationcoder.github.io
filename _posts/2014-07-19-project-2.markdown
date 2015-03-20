@@ -1,0 +1,15 @@
+---
+
+title: Koordit
+layout: default
+modal-id: 2
+date: 2014-07-19
+img: koordit_web.png
+thumbnail: koordit_web.png
+alt: koordit_web
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development QQQQQQ
+description: Maisa Solutions.
+
+---
