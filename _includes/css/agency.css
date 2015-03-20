@@ -741,7 +741,7 @@ section#contact:-ms-input-placeholder {
 }
 
 section#contact .text-danger {
-    color: #e74c3c;
+    color: #d50032;
 }
 
 footer {
@@ -891,7 +891,7 @@ body {
 
 /*sadashiv*/
 .box, .white {
-    background-color: #C52128;
+    background-color: #d50032;
     color: #ffffff;
     padding: 10px 4px;
     font-weight: bold;
@@ -901,7 +901,7 @@ body {
 }
 .white {
     background-color: #ffffff;
-    color: #C52128
+    color: #d50032
 
 }
 
