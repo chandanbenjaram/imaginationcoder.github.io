@@ -18,48 +18,34 @@ people:
 - name: Pradeep Benjaram
   pic: 1
   position: Founder & M.D.
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
 
 - name: Niveditha Reddy
   pic: 2
   position: Director of Human Resources
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
 
 - name: Prasanna Patil
   pic: 3
   position: Director of U.S. Ops
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/maisasolutions
-  - title: facebook
-    url: https://www.facebook.com/MaisaSolutions
-  - title: stack-overflow
-    url: https://github.com/maisaengineering/
-  - title: bitbucket 
-    url: https://github.com/maisaengineering/
-  - title: github
-    url: https://github.com/maisaengineering/
+   - title: facebook
+     url: https://www.facebook.com/MaisaSolutions
+   - title: twitter
+     url: https://twitter.com/maisasolutions
+   - title: google-plus
+     url: https://plus.google.com/+Maisasolutions/posts
+   - title: youtube
+     url: https://www.youtube.com/watch?v=v5GpjKcUrF8&amp;feature=youtu.be
+   - title: github
+     url: https://github.com/maisaengineering/
 
 # Postal address (add as many lines as necessary)
 address:
