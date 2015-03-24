@@ -1,6 +1,6 @@
 ---
 
-title: Maisa Spices
+title: Maisa Foods
 layout: default
 modal-id: 7
 date: 2014-07-14
