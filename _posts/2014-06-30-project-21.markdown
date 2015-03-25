@@ -4,7 +4,7 @@ title: Koordit
 layout: default
 modal-id: 21
 date: 2014-06-30
-img: koordit_mobile.png
+img: koordit_mobile_popup.png
 thumbnail: koordit_mobile.png
 alt: koordit_mobile
 project-date: April 2014
