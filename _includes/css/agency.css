@@ -6,12 +6,13 @@
 
 body {
     overflow-x: hidden;
-    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Open Sans', sans-serif !important;
     color: #{{ site.color.secondary-dark }};
 }
 
 .text-muted {
-    color: #777;
+    color: #222;
 }
 
 .text-primary {
@@ -255,7 +256,9 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #f3f2f1;
+        background-color:#ffffff;
+        border-bottom:1px solid #dddddd;
+
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -744,6 +747,8 @@ section#contact .text-danger {
     color: #C52128;
 }
 
+
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -916,4 +921,9 @@ body {
     margin-left:100px;
 }
 
+}
+
+#map{
+    width:100%;
+    height:935px;
 }
