@@ -56,7 +56,6 @@ $(function() {
 
 
 
-
 // modal box for portfolio images
 $('div.modal').on('show.bs.modal', function() {
     var modal = this;
