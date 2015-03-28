@@ -13,12 +13,13 @@
 
 body {
     overflow-x: hidden;
-    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Open Sans', sans-serif !important;
     color: #333;
 }
 
 .text-muted {
-    color: #777;
+    color: #222;
 }
 
 .text-primary {
@@ -262,7 +263,9 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #f3f2f1;
+        background-color:#ffffff;
+        border-bottom:1px solid #dddddd;
+
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -751,6 +754,8 @@ section#contact .text-danger {
     color: #C52128;
 }
 
+
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -925,6 +930,11 @@ body {
 
 }
 
+#map{
+    width:100%;
+    height:935px;
+}
+
 
 
 /*overrides --------------*/
@@ -987,7 +997,7 @@ Class name automatically added to element */
     height: 80px;
 }
 .box-client-logos {
-    background-color:#f3f2f1;
+    background-color:#ffffff;
     margin-bottom:1em;
     margin-left:30px;
     margin-right:30px;
@@ -1011,4 +1021,20 @@ Class name automatically added to element */
 .services-icons {
     margin-top:60px;
     margin-bottom:20px;
+}
+
+#map{
+    width:100%;
+    height:935px;
+}
+
+#contact {
+    background-color:rgba(000,000,000,0.6) !important;
+    background-image:none !important;
+    pointer-events: none;
+    position:absolute; top:-0px;
+    width:100%;
+}
+#contact div {
+    pointer-events: auto;
 }

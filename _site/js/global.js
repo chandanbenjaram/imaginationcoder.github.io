@@ -54,7 +54,6 @@ $(function() {
     $("#scroller").simplyScroll();
 });
 
-$.backstretch("../img/background.png");
 
 
 // modal box for portfolio images
