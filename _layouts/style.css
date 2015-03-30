@@ -8,7 +8,7 @@ section {
 }
 
 footer {
-    background-color: #f3f2f1;
+    background-color: #fff;
 }
 .btn-danger {
     background-color: #C52128 !important;
@@ -103,4 +103,22 @@ Class name automatically added to element */
 }
 #contact div {
     pointer-events: auto;
+}
+
+.background_stripes{
+    background: #c52128 !important;
+    color: #fff !important;
+}
+
+.background_stripes .text-muted {
+    color: #fff;
+}
+
+.background_stripes section h2.section-heading{
+    color: #fff;
+}
+
+.alert-danger{
+    background-color: #c52128;
+    border-color: #c52128;
 }

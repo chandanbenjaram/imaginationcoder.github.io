@@ -9,7 +9,7 @@ thumbnail: baseball_web.png
 alt: baseball_web
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development QQQQQQ
+category: Web Development
 description: Maisa Solutions.
 
 ---

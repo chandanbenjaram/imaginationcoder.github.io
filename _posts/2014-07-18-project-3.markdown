@@ -9,7 +9,7 @@ thumbnail: dojitsu_web.png
 alt: dojitsu_web
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development QQQQQQ
+category: Web Development
 description: Maisa Solutions.
 
 ---

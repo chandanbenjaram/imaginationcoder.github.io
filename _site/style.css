@@ -264,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color:#ffffff;
-        border-bottom:1px solid #dddddd;
+        border-bottom:0px solid #dddddd;
 
     }
 
@@ -685,6 +685,11 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+aside.clients{
+    margin-bottom:50px !important;
+    overflow: hidden;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
@@ -714,7 +719,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 245px;
 }
 
 section#contact .form-control:focus {
@@ -932,9 +937,15 @@ body {
 
 #map{
     width:100%;
-    height:935px;
+    height:664px !important;
 }
 
+.partnered_text{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color:#c52128;
+}
 
 
 /*overrides --------------*/
@@ -943,7 +954,7 @@ section {
 }
 
 footer {
-    background-color: #f3f2f1;
+    background-color: #fff;
 }
 .btn-danger {
     background-color: #C52128 !important;
@@ -993,8 +1004,9 @@ Class name automatically added to element */
 /* Explicitly set height/width of each list item */
 .simply-scroll .simply-scroll-list li {
     float: left; /* Horizontal scroll only */
-    width:300px;
+    width: 0 auto;
     height: 80px;
+    margin-right: 100px;
 }
 .box-client-logos {
     background-color:#ffffff;
@@ -1037,4 +1049,22 @@ Class name automatically added to element */
 }
 #contact div {
     pointer-events: auto;
+}
+
+.background_stripes{
+    background: #c52128 !important;
+    color: #fff !important;
+}
+
+.background_stripes .text-muted {
+    color: #fff;
+}
+
+.background_stripes section h2.section-heading{
+    color: #fff;
+}
+
+.alert-danger{
+    background-color: #c52128;
+    border-color: #c52128;
 }

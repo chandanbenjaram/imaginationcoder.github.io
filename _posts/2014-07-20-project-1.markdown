@@ -7,9 +7,9 @@ date: 2014-07-20
 img: kidslink_web.png
 thumbnail: kidslink_web.png
 alt: kidslink_web
-project-date: April 2014
+project-date: Current
 client: Start Bootstrap
-category: Web Development QQQQQQ
+category: Web Development
 description: Maisa Solutions.
 
 ---
