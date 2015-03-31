@@ -208,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #B20725;
@@ -270,13 +270,13 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url(../img/header-bg.jpg);*/
+    background-image: url(../img/header-bg.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; 
 }
 
 header .intro-text {
@@ -312,10 +312,58 @@ margin-right: 80px;
 width: 90%;
 }
 .we_build{
-    font-size: 2em;
-    color: #3B4854;
-    font-family: -webkit-body;
-    font-weight:bold; 
+font-size: 2.5em;
+font-family: "Open Sans", sans-serif;
+max-width: 26em;
+margin: 0 auto 1.25em;
+font-weight: 300;
+color: #c52128;
+line-height: 50px;
+text-transform: none;
+}
+
+.play_icon {
+display: block;
+width: 3.1875em;
+height: 3.1875em;
+margin: 0 auto 2.5em;
+transition: -webkit-transform .3s ease;
+transition: transform .3s ease;
+}
+
+.maininfo_sub_text{
+font-size: 2em;
+font-family: "Open Sans", sans-serif;
+max-width: 26em;
+margin: 0 auto 1em;
+font-weight: 300;
+color: #000;
+line-height: 40px;
+}
+
+.get_in_btn {
+display: block;
+font-size: 25px;
+width: 9em;
+padding: .75em 1em;
+margin: .5em auto 0;
+color: #c52128;
+border: 2px solid #c52128;
+border-radius: 4em;
+transition: color .3s ease, background .3s ease;
+}
+
+.get_in_btn:hover {
+display: block;
+font-size: 25px;
+width: 9em;
+padding: .75em 1em;
+margin: .5em auto 0;
+color: #fff;
+background: #c52128;
+border: 2px solid #c52128;
+border-radius: 4em;
+transition: color .3s ease, background .3s ease;
 }
 
 .we_off {
@@ -326,7 +374,7 @@ width: 90%;
 }
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 170px;
+        padding-top: 220px;
         padding-bottom: 100px;
     }
 
@@ -664,7 +712,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #C5BD99;
+    border: 7px solid #fff;
     /*image rounded corner color*/
 }
 
@@ -892,7 +940,7 @@ img::selection {
 }
 
 img::-moz-selection {
-    background: 0 0;
+    background-image: 
 }
 
 body {
@@ -900,15 +948,25 @@ body {
 }
 
 /*sadashiv*/
-.box, .white {
+.box {
+    background: #C52128;
+    color: #fff;
+    padding: 10px 4px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 1em;
+}
+
+.white {
     background-color: #C52128;
-    color: #ffffff;
+    color: #c52128;
     padding: 10px 4px;
     font-weight: bold;
     font-size: 16px;
     padding-left: 1em;
 
 }
+
 .white {
     background-color: #ffffff;
     color: #C52128;
@@ -938,4 +996,10 @@ body {
     font-size: 20px;
     text-align: center;
     color:#c52128;
+}
+
+.hi5_rules{
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom:100px;
 }

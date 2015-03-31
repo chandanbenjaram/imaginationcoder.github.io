@@ -122,3 +122,24 @@ Class name automatically added to element */
     background-color: #c52128;
     border-color: #c52128;
 }
+
+.navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+border-radius: 0;
+color: #c52128;
+background: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+border-radius: 11px;
+border: 2px solid #c52128;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px;
+margin-top: 5px;
+}
