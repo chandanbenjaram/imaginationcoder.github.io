@@ -1015,6 +1015,31 @@ body {
     position: relative;
 }
 
+.learn_more_btn {
+  display: block;
+  font-size: 24px;
+  width: 9em;
+  padding: 12px;
+  margin: 15px auto 0;
+  color: #c52128;
+  border: 2px solid #c52128;
+  border-radius: 4em;
+  transition: color .3s ease, background .3s ease;
+}
+
+.learn_more_btn:hover {
+display: block;
+font-size: 24px;
+width: 9em;
+padding: 12px;
+margin: 15px auto 0;
+color: #fff;
+background: #c52128;
+border: 2px solid #c52128;
+border-radius: 4em;
+transition: color .3s ease, background .3s ease;
+}
+
 
 /*overrides --------------*/
 section {
