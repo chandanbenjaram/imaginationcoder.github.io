@@ -1,5 +1,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+{% include css/jquery.fancybox.css %}
 
 
 /*overrides --------------*/
@@ -142,4 +143,9 @@ border: 2px solid #c52128;
 .navbar-nav.navbar-right:last-child {
 margin-right: -15px;
 margin-top: 5px;
+}
+
+/* contact form background image*/
+.contact_form_backgroung_img {
+    background-image:url('../img/world-map.png')
 }

@@ -54,7 +54,7 @@ $(function() {
     $("#scroller").simplyScroll();
 });
 
-$.backstretch("../img/background.png");
+
 
 
 // modal box for portfolio images
@@ -72,4 +72,38 @@ $('div.modal').on('show.bs.modal', function() {
 
 $("#aboutVideo").on('hidden.bs.modal', function (e) {
     $("#aboutVideo iframe").attr("src", $("#aboutVideo iframe").attr("src"));
+});
+
+$(document).ready(function() {
+    $(".fancybox").fancybox();
+});
+
+$("#single_1").fancybox({
+    helpers: {
+        title : {
+            type : 'float'
+        }
+    }
+});
+$("#single_2").fancybox({
+    helpers: {
+        title : {
+            type : 'float'
+        }
+    }
+});
+
+
+$(document).ready(function() {
+    $(".various").fancybox({
+        maxWidth	: 800,
+        maxHeight	: 600,
+        fitToView	: false,
+        width		: '70%',
+        height		: '70%',
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
 });
