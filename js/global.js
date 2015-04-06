@@ -5,19 +5,28 @@ $(function() {
         var location = '/'
         switch ($(this).attr('href')) {
             case '#services':
-                location = '/services'
+                location = '/services.html'
                 break;
             case '#process':
-                location = '/process'
+                location = '/process.html'
                 break;
             case '#portfolio':
-                location = '/portfolio'
+                location = '/portfolio.html'
                 break;
             case '#our-pride':
-                location = '/pride'
+                location = '/pride.html'
                 break;
             case '#contact':
-                location = '/contact'
+                location = '/contact.html'
+                break;
+            case '#web-development.html':
+                location = '/web-development.html'
+                break;
+            case '#mobile-development.html':
+                location = '/mobile-development.html'
+                break;
+            case '#cloud-computing.html':
+                location = '/cloud-computing.html'
                 break;
         }
         window.location = location
@@ -28,20 +37,29 @@ $(function() {
 // to support individual pages SEO
 var anchor = ''
 switch (window.location.pathname) {
-    case '/services/':
+    case '/services.html/':
         anchor = $('a[href="#services"]')
         break;
-    case '/process/':
+    case '/process.html/':
         anchor = $('a[href="#process"]')
         break;
-    case '/portfolio/':
+    case '/portfolio.html/':
         anchor = $('a[href="#portfolio"]')
         break;
-    case '/pride/':
+    case '/pride.html/':
         anchor = $('a[href="#our-pride"]')
         break;
-    case '/contact/':
+    case '/contact.html/':
         anchor = $('a[href="#contact"]')
+        break;
+    case '/web-development.html/':
+        anchor = $('a[href="#web-development.html"]')
+        break;
+    case '/mobile-development.html/':
+        anchor = $('a[href="#mobile-development.html"]')
+        break;
+    case '/cloud-computing.html/':
+        anchor = $('a[href="#cloud-computing.html"]')
         break;
 }
 if(anchor !='') {
