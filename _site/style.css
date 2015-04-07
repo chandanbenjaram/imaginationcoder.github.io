@@ -1014,6 +1014,31 @@ body {
 #our-pride{
     position: relative;
 }
+
+.learn_more_btn {
+  display: block;
+  font-size: 24px;
+  width: 9em;
+  padding: 12px;
+  margin: 15px auto 0;
+  color: #c52128;
+  border: 2px solid #c52128;
+  border-radius: 4em;
+  transition: color .3s ease, background .3s ease;
+}
+
+.learn_more_btn:hover {
+display: block;
+font-size: 24px;
+width: 9em;
+padding: 12px;
+margin: 15px auto 0;
+color: #fff;
+background: #c52128;
+border: 2px solid #c52128;
+border-radius: 4em;
+transition: color .3s ease, background .3s ease;
+}
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -1287,31 +1312,6 @@ body {
 		background-image: url('../img/fancybox/fancybox_loading@2x.gif');
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
-}
-
-.learn_more_btn {
-  display: block;
-  font-size: 24px;
-  width: 9em;
-  padding: 12px;
-  margin: 15px auto 0;
-  color: #c52128;
-  border: 2px solid #c52128;
-  border-radius: 4em;
-  transition: color .3s ease, background .3s ease;
-}
-
-.learn_more_btn:hover {
-display: block;
-font-size: 24px;
-width: 9em;
-padding: 12px;
-margin: 15px auto 0;
-color: #fff;
-background: #c52128;
-border: 2px solid #c52128;
-border-radius: 4em;
-transition: color .3s ease, background .3s ease;
 }
 
 
