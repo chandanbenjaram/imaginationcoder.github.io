@@ -1461,13 +1461,3 @@ margin-top: 5px;
 .contact_form_backgroung_img {
     background-image:url('../img/world-map.png')
 }
-
-.services_img img{
-    width: 100%;
-    height: auto;
-}
-
-.no-padding{
-    padding-left: 0px;
-    padding-right: 0px;
-}
