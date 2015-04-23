@@ -364,7 +364,7 @@ transition: color .3s ease, background .3s ease;
 
 .we_off {
     float: left;
-    width: 990px;
+    width: 100%;
 }
 .we_off h3 {
     font-size: 1.5em;
