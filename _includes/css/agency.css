@@ -1087,3 +1087,12 @@ transition: color .3s ease, background .3s ease;
 .button a:hover {
     text-decoration: none
 }
+
+a.aHoverEffect {
+    text-decoration: none;
+    color: #C52128;
+}
+
+a.aHoverEffect:hover {
+    color: #a0a0a0;
+}
