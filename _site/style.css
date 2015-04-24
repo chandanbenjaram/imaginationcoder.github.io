@@ -380,6 +380,7 @@ transition: color .3s ease, background .3s ease;
     margin-top: 32px;
     font-family: -webkit-body;
     font-weight: bold;
+    text-align: center;
 }
 @media(min-width:768px) {
     header .intro-text {
@@ -1030,9 +1031,10 @@ body {
     color:#c52128;
 }
 
-.hi5_rules{
+.logo_scrol{
     background: #fff;
-    padding-top: 50px;
+    padding-top: 18px;
+    text-align: center;
     /*padding-bottom:50px;*/
 }
 
@@ -1102,6 +1104,10 @@ a.aHoverEffect {
 
 a.aHoverEffect:hover {
     color: #a0a0a0;
+}
+
+.page_top_box{
+ height: 80px;
 }
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
