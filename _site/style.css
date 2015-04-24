@@ -384,7 +384,7 @@ transition: color .3s ease, background .3s ease;
 }
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
+        padding-top: 110px;
         padding-bottom: 100px;
     }
 
@@ -412,13 +412,14 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     font-size: 40px;
     color: #C52128;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 30px;
+    margin-top: 5px;
     text-transform: none;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -1052,6 +1053,7 @@ body {
   width: 9em;
   padding: 12px;
   margin: 15px auto 0;
+    margin-bottom: 15px;
   color: #c52128;
   border: 2px solid #c52128;
   border-radius: 4em;
@@ -1109,6 +1111,8 @@ a.aHoverEffect:hover {
 .page_top_box{
  height: 80px;
 }
+
+
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -1525,7 +1529,7 @@ border: 2px solid #c52128;
 
 .navbar-nav.navbar-right:last-child {
 margin-right: -15px;
-margin-top: 5px;
+margin-top: 25px;
 }
 
 /* contact form background image*/
@@ -1553,4 +1557,23 @@ margin-top: 5px;
 .hi_5_img{
     width: 1140px;
     height:100%;
+}
+
+#facetweet {
+    float: right;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#facebook {
+    float: left;
+    padding-left: 0px;
+    width: 82px;
+}
+
+#tweet {
+    float: left;
+    padding-left: 0px;
+    width: 85px;
 }
