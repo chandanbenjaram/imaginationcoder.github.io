@@ -1006,8 +1006,11 @@ body {
 .mtop30{margin-top: 30px}
 
 @media all and (max-width: 699px)  {
-    .intro-text {
+.intro-text {
         text-align: center;
+    }
+header .intro-text {
+    padding-top: 80px;
     }
 .mobile_float{
     margin-left:100px;
