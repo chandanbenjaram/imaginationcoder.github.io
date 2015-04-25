@@ -999,6 +999,9 @@ body {
 .mtop30{margin-top: 30px}
 
 @media all and (max-width: 699px)  {
+    .intro-text {
+        text-align: center;
+    }
 .mobile_float{
     margin-left:100px;
 }
