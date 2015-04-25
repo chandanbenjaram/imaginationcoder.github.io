@@ -1118,7 +1118,10 @@ a.aHoverEffect:hover {
  height: 80px;
 }
 
-
+.navbar-default {
+    background-color: #fff !important;
+    padding: 10px 0 !important;
+}
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,

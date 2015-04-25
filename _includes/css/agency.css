@@ -1111,3 +1111,7 @@ a.aHoverEffect:hover {
  height: 80px;
 }
 
+.navbar-default {
+    background-color: #fff !important;
+    padding: 10px 0 !important;
+}
