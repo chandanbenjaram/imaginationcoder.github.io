@@ -381,6 +381,11 @@ transition: color .3s ease, background .3s ease;
     font-weight: bold;
     text-align: center;
 }
+
+.open_sans_font{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 110px;

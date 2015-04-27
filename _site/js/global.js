@@ -73,6 +73,14 @@ $(function() {
 });
 
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $(".mobile_view_hi5").show()
+    $(".web_view_hi5").hide()
+}
+else{
+    $(".mobile_view_hi5").hide()
+    $(".web_view_hi5").show()
+}
 
 
 // modal box for portfolio images
