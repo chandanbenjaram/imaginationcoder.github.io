@@ -4,8 +4,8 @@ title: Tribal.ly
 layout: default
 modal-id: 8
 date: 2014-07-13
-img: tribally_web.png
-thumbnail: tribally_web.png
+img: tribally_web.jpg
+thumbnail: tribally_web.jpg
 alt: tribally_web
 project-date: April 2014
 client: Start Bootstrap

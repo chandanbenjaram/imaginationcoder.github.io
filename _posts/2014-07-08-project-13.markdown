@@ -4,8 +4,8 @@ title: AT T
 layout: default
 modal-id: 13
 date: 2014-07-08
-img: att_web.png
-thumbnail: att_web.png
+img: att_web.jpg
+thumbnail: att_web.jpg
 alt: att_web
 project-date: April 2014
 client: Start Bootstrap

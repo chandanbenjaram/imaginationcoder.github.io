@@ -4,8 +4,8 @@ title: Deseret Book
 layout: default
 modal-id: 17
 date: 2014-07-04
-img: desertbook_web.png
-thumbnail: desertbook_web.png
+img: desertbook_web.jpg
+thumbnail: desertbook_web.jpg
 alt: desertbook_web
 project-date: April 2014
 client: Start Bootstrap

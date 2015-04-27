@@ -3,8 +3,8 @@ title: Chipotle Store
 layout: default
 modal-id: 9
 date: 2014-07-12
-img: chipotlestore.png
-thumbnail: chipotlestore.png
+img: chipotlestore.jpg
+thumbnail: chipotlestore.jpg
 alt: chipotlestore
 project-date: April 2014
 <!-- client: Start Bootstrap -->

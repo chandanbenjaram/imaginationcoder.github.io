@@ -3,8 +3,8 @@ title: American Wants To Work
 layout: default
 modal-id: 11
 date: 2014-07-10
-img: american.png
-thumbnail: american.png
+img: american.jpg
+thumbnail: american.jpg
 alt: image-alt
 project-date: April 2014
 <!-- client: Start Bootstrap -->

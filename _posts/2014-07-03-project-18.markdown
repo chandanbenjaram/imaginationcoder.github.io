@@ -4,8 +4,8 @@ title: Prime Time Solutions
 layout: default
 modal-id: 18
 date: 2014-07-03
-img: prime.png
-thumbnail: prime.png
+img: prime.jpg
+thumbnail: prime.jpg
 alt: prime
 project-date: April 2014
 client: Start Bootstrap
