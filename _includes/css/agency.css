@@ -314,7 +314,7 @@ width: 90%;
 .we_build{
     font-size: 2em;
     color: #3b4854;
-    font-family: -webkit-body;
+    font-family: 'Open Sans', sans-serif ;
     font-weight: bold;
 }
 
@@ -370,13 +370,14 @@ transition: color .3s ease, background .3s ease;
     font-size: 1.5em;
     color: #3b4854;
     margin-top: 32px;
-    font-family: -webkit-body;
+    font-family: 'Open Sans', sans-serif ;
     font-weight: bold;
     text-align: center;
 }
 
-.open_sans_font{
+.we_have_partnered{
     font-family: 'Open Sans', sans-serif !important;
+    color: #3b4854;
 }
 
 @media(min-width:768px) {
