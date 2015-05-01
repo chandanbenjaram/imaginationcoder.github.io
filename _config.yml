@@ -1,6 +1,9 @@
 url: http://www.maisasolutions.com/
 baseurl: ""
 
+# Handling Reading
+include:      [".htaccess"]
+
 # Site settings
 title: Web Development Services | Mobile Application Developers
 pic: logo
