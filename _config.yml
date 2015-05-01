@@ -1,9 +1,6 @@
 url: http://www.maisasolutions.com/
 baseurl: ""
 
-# Handling Reading
-include:      [".htaccess"]
-
 # Site settings
 title: Web Development Services | Mobile Application Developers
 pic: logo
@@ -56,6 +53,9 @@ social:
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills , CA 90210
+
+# Handling Reading
+include:      [".htaccess"]
 
 # Build settings
 markdown: kramdown
