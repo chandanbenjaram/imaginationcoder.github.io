@@ -108,16 +108,16 @@ Class name automatically added to element */
 }
 
 .background_stripes{
-    background: #c52128 !important;
-    color: #fff !important;
+    background: #fff !important;
+    color: #222 !important;
 }
 
 .background_stripes .text-muted {
-    color: #fff;
+    color: #222;
 }
 
 .background_stripes section h2.section-heading{
-    color: #fff;
+    color: #C52128;
 }
 
 .alert-danger{
