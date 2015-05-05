@@ -69,12 +69,13 @@ if(anchor !='') {
 
 // scrolling client images
 $(function() {
-    $("#scroller").simplyScroll();
+    //$("#scroller").simplyScroll();
 });
 
 
 $(window).load (function () {
     $('div#hide_until_page_load').removeClass('hide_div')
+    $("#scroller").simplyScroll();
 });
 
 
