@@ -161,37 +161,15 @@
 <![endif]-->
 
 
-<script type="text/javascript">
-    WebFontConfig = {
+
+<script async src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+<script>
+    WebFont.load({
         google: {
-               families: ['Montserrat:400,700','Kaushan+Script','Lato:400,700,400italic,700italic', 'Roboto+Slab:400,100,300,700', 'Droid+Serif:400,700,400italic,700italic','Open+Sans']
-        },
-        custom: { families: [ 'FontAwesome' ],
-            urls: [ '../css/font-awesome/css/font-awesome.min.css'] },
-        fontactive: function(fontFamily, fontDescription) { wall.drawBoxes() }
-    };
-    (function() {
-        var wf = document.createElement('script');
-        wf.src = 'http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'false';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-    })();
+            families: ['Montserrat','Kaushan Script','Lato', 'Roboto Slab', 'Droid Serif','Open Sans']
+        }
+    });
 </script>
-<style type="text/css">
-    .wf-loading [class^="icon-"],
-    [class*=" icon-"] {
-        visibility: hidden;
-    }
-
-    .wf-active  [class^="icon-"],
-    [class*=" icon-"] {
-        visibility: visible;
-    }
-</style>
-
-
     <!-- jQuery Version 1.11.0 -->
     <script async src="/js/jquery-1.11.0.js"></script>
 
