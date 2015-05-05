@@ -73,6 +73,11 @@ $(function() {
 });
 
 
+$(window).load (function () {
+    $('div#hide_until_page_load').removeClass('hide_div')
+});
+
+
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     $(".mobile_view_hi5").show()
     $(".web_view_hi5").hide()
