@@ -60,4 +60,4 @@ markdown: kramdown
 permalink: /:title.html
 
 # Handling Reading
-include:      [".htaccess"]
+include:      ['.htaccess']
