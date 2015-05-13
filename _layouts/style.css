@@ -139,6 +139,8 @@ background: #fff;
 .navbar-default .navbar-nav>.active>a {
 border-radius: 11px;
 border: 2px solid #c52128;
+background-color: #c52128;
+color: #FFFFFF;
 }
 
 .navbar-nav.navbar-right:last-child {
