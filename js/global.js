@@ -75,11 +75,12 @@ if(anchor !='') {
 
 // loading simplyScroll.js
 
-$.getScript("../js/simplyScroll.min.js", function(){
-});
+
 
 //$(".hide_div").show()
 $(window).load (function () {
+    $.getScript("../js/simplyScroll.min.js", function(){
+    });
     $(".hide_div").show()
     $("#scroller").simplyScroll();
 
