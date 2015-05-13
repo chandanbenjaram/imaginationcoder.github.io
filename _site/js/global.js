@@ -73,10 +73,11 @@ if(anchor !='') {
 });*/
 
 
-$(".hide_div").hide()
+//$(".hide_div").show()
 $(window).load (function () {
-    $("#scroller").simplyScroll();
     $(".hide_div").show()
+    $("#scroller").simplyScroll();
+
 });
 
 
