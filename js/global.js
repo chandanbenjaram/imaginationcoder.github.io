@@ -78,12 +78,17 @@ if(anchor !='') {
 $.getScript("../js/simplyScroll.min.js", function(){
 });
 
+$(function() {
+    $(".hide_div").show()
+    $("#scroller").simplyScroll();
+});
+
 //$(".hide_div").show()
-$(window).load (function () {
+/*$(window).load (function () {
     $(".hide_div").show()
     $("#scroller").simplyScroll();
 
-});
+});*/
 
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
