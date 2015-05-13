@@ -68,14 +68,15 @@ if(anchor !='') {
 //-------------------------------------------------
 
 // scrolling client images
-$(function() {
-    //$("#scroller").simplyScroll();
-});
-
-
-$(window).load (function () {
-    $('div#hide_until_page_load').removeClass('hide_div')
+/*$(function() {
     $("#scroller").simplyScroll();
+});*/
+
+
+$(".hide_div").hide()
+$(window).load (function () {
+    $("#scroller").simplyScroll();
+    $(".hide_div").show()
 });
 
 
