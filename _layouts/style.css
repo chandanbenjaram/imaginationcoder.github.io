@@ -9,7 +9,7 @@ section {
 }
 
 footer {
-    background-color: #222;
+    background-color: #A39E9D;
 }
 .btn-danger {
     background-color: #C52128 !important;
@@ -173,4 +173,27 @@ margin-top: 5px;
 .hi_5_img{
     width: 1140px;
     height:100%;
+}
+
+#facetweet {
+    float: right;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#facebook {
+    float: left;
+    padding-left: 20px;
+    width: 100px;
+}
+#tweet {
+    float: left;
+    padding-left: 20px;
+    width: 100px;
+}
+
+.iso_cert{
+    padding-left: 10px;
+    padding-top: 10px;
+
 }
